@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - To-Do App{% endblock %}
+
+{% block content %}
+<h1>Welcome to Your To-Do App</h1>
+<p>Manage your tasks efficiently.</p>
+<a href="{% url 'create_task' %}">Create a New Task</a>
+{% endblock %}
